@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 @RestController
-@RequestMapping("/prog2/people")
+@RequestMapping("/prog2/202320336/people")
 public class PeopleController {
 
   @Autowired
@@ -25,7 +25,7 @@ public class PeopleController {
 
   @GetMapping("/all")
   public ArrayList<PersonModel> getAll() {
-    return peopleManagerService.getPeople();
+    return peopleManagerService.showPeople();
   }
 
 

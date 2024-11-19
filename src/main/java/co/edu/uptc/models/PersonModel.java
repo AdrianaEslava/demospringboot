@@ -13,7 +13,7 @@ public class PersonModel {
     private String lastName;
     private LocalDate birthday;
     private Genders gender;
-
+    private boolean isvisible;
 
     public enum Genders {
         MALE,
